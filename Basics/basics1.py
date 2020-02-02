@@ -1,10 +1,8 @@
 '''
-    In this code, basics of PyTorch are explored such as: 
-        tensors, autograd, nn Module, optim, etc.
+    In this code, basics of PyTorch are explored such as tensors.
     This is inspired by: https://www.kdnuggets.com/2018/11/introduction-pytorch-deep-learning.html
 '''
 import torch
-import numpy as np
 
 # This is for the CPU variant. 
 # We initialize basic tensors and perform linear operations on them.
@@ -22,4 +20,3 @@ out = mat3x3 * mat3x3_2
 print("Out: ", out)
 transposed_out = out.t()
 print("Transposed Out: ", transposed_out)
-
